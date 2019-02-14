@@ -4,3 +4,4 @@
 #   lp  : the logic programs for Boolean networks
 #   data: the randomly generated state transitions for these logic programs in lp
 #   fig : the running results for the above data  
+#   example: some simple state transition instances 
