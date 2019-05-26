@@ -1,16 +1,16 @@
-# Learning disjunctive logic programs from non-determinsitc state transitions
-# Implimented in Python 3.6
-# directories:
-#   lp  : the logic programs for Boolean networks
-#   data: the randomly generated state transitions for these logic programs in lp
-#   fig : the running result figrues for the above data (hight resolution)  
-#   fig-low : the running result figures for the above data (low resolution)
-#   example: some simple state transition instances 
+ Learning disjunctive logic programs from non-determinsitc state transitions
+ Implimented in Python 3.6
+ directories:
+   lp  : the logic programs for Boolean networks
+   data: the randomly generated state transitions for these logic programs in lp
+   fig : the running result figrues for the above data (hight resolution)  
+   fig-low : the running result figures for the above data (low resolution)
+   example: some simple state transition instances 
 
-# usage for LFDT.pyc
-# LFDT.pyc: The compiled python file to learn disjunctive programs
-# statistics.py: The python source code to do statistics for experiments
-# gen-lfdt.py: The python source code to generate random state transitions
+ usage for LFDT.pyc
+ LFDT.pyc: The compiled python file to learn disjunctive programs
+ statistics.py: The python source code to do statistics for experiments
+ gen-lfdt.py: The python source code to generate random state transitions
 
 python3.6 LFDT.pyc --help
 Usage: LFDT.pyc [options] <state_transitions>
